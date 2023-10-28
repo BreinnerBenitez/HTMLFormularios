@@ -1,0 +1,109 @@
+#inicio{
+    border:3px solid  black;
+    width: 100%;
+    height: 100px;
+    background: -webkit-linear-gradient(top,red,rgb(245, 219, 219));
+    background: -moz-linear-gradient(top,red,rgb(245, 219, 219));
+    border-radius: 10px ;
+    
+    
+    }
+    
+    /* barra de arriba inicia*/
+    
+    body{
+        background-color: rgb(207, 157, 157);
+    }
+    
+    
+    
+    
+     #barra{
+        
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      /*width: 185px;*/
+     /* border-bottom: 1px dashed black ; */
+      margin-left:  100px; ;
+      margin-top: 50px;
+    
+    
+    
+      
+            }
+    
+        #barra li{
+        
+       
+        float: left;
+        width: 200px; 
+            
+        }
+    
+        #barra a{
+            
+        color: black;
+        font-weight: bold;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px dashed black ;
+        display: block;
+        padding: 10px 0px 10px 30px;
+        background-color: rgb(128, 128, 128);
+        background-image: url(../images/fondolink.png);
+        background-repeat: no-repeat;
+        background-position: 0px 2px;
+        border-bottom: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 5px solid black;
+        
+        }
+    
+        #estatico{
+    
+            width: 900px;   
+            margin: 0px auto;
+            
+    }
+    
+    
+    
+    #barra a:hover{
+    
+      font-weight: bold;
+      background-color: white;
+      background-position: 3px 50%;
+      transform: rotate(5deg);
+        }
+    
+    
+    /* barra de arriba  finaliza*/
+    
+    
+    
+    /* Tabla de abajo empieza*/
+    
+    table{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    width: 25%;
+    margin:50px auto;
+    background: -webkit-linear-gradient(top,red,rgb(245, 219, 219));
+    background: -moz-linear-gradient(top,red,rgb(245, 219, 219));
+    border: 3px solid black;
+    border-radius: 10px;
+    }
+    
+    /* estilos dentro de tabla*/
+     td.nombreizquierdo,  td.apellidoizquierdo,  td.edadizquierdo{
+    
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    }
+    

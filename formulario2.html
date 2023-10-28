@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- FORMULARIO setCustomValidity Breinner Aprendiendo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="icon" href="images/foto.ico">
+    <link rel="stylesheet" href="apiform-invalid/estilos.css"> 
+    <script src="apiform-invalid/eventos.js"></script> 
+    
+
+</head>
+<body>
+<div id="estatico">
+<nav id="inicio">
+<ul id="barra">
+<li><a href="index.html">formulario 1</a></li>
+<li><a href="formulario2.html">formulario 2</a></li>
+<li><a href="chao.html">CHAO, GRACIAS</a></li>
+</ul>
+</nav>
+</div>
+
+<form name="datos_usuario" id="resgistro_usuarios" method="get">
+
+    <table>
+
+        <tr>
+            <td class="usuarioizquierdo">
+                usuario
+            </td>
+
+            <td>
+                <input pattern="[A-Za-z1-9]{5}" name="usuario" id="usuario" maxlength="10" required="true" >
+
+            </td>
+
+
+        </tr>  <!-- fila-->
+
+
+        <tr>
+            <td class="emailizquierdo">email</td>
+            
+            <td><input type="email" name="email" id="email" placeholder="email" required="true"> </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="edadizquierdo">edad</td>
+            <td> <input type="range" name="range" min="0"  max="120" id="edad" value="30" step="30" id="edad"></td>
+
+        </tr>
+
+        <tr>
+
+           <td class="rango">   <output  id="rango">0 a 30</output> </td>
+
+
+        </tr>
+
+        <tr>
+            <td>     
+
+                <input type="submit"  value="registrar" id="enviar">
+            </td>
+            
+
+        </tr>
+
+        
+
+    </table>
+
+
+</form>
+
+</body>
+</html>

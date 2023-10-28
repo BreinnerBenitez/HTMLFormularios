@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- FORMULARIO setCustomValidity Breinner Aprendiendo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="icon" href="images/foto.ico">
+    <link rel="stylesheet" href="setCustomValidity/estilos.css"> 
+    <script src="setCustomValidity/eventos.js"></script> 
+    
+
+</head>
+<body>
+<div id="estatico">
+<nav id="inicio">
+<ul id="barra">
+<li><a href="index.html">formulario 1</a></li>
+<li><a href="formulario2.html">formulario 2</a></li>
+<li><a href="chao.html">CHAO, GRACIAS</a></li>
+</ul>
+</nav>
+</div>
+
+
+<form name="formulario" id="formulario" method="get">
+<table>
+
+    <tr>
+        <td class="nombreizquierdo">
+            nombre
+        </td>
+
+        <td>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre">
+
+        </td>
+
+
+    </tr>  <!-- fila-->
+
+
+    <tr>
+        <td class="apellidoizquierdo">Apellido </td>
+        
+        <td><input type="text" name="Apellido" id="apellido" placeholder="apellido"></td>
+
+    </tr>
+
+    <tr>
+
+        <td class="edadizquierdo">edad</td>
+        <td> <input type="number" name="edad" pattern="[0-100]" id="edad" placeholder="edad"></td>
+
+    </tr>
+
+    <tr>
+        <td>     
+
+            <input type="submit"  value="registrar" id="enviar">
+        </td>
+        
+
+    </tr>
+
+    
+
+</table>
+
+    
+
+</form>
+
+
+</body>
+</html>
